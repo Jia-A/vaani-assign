@@ -1,0 +1,129 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-box {
+    margin: 1.875rem;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    width: 65%;
+    position: relative;
+    align-self: center;
+    min-height: 12.5rem;
+}
+
+.task-list {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+.task-item {
+    background-color: #1D3461;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.x:checked+.y{
+    text-decoration:line-through;
+    color: black;
+}
+
+.add-task-btn {
+    right: 10px;
+    bottom: 10px;
+    padding: 15px 20px;
+    margin-top: 0.6rem;
+    border-radius: 5%;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 0px rgba(37, 37, 37, 0.8);
+}
+
+
+.list-icon {
+    color: whitesmoke;
+    margin: 0px 10px;
+}
+
+.modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: whitesmoke;
+    margin-right: 0;
+}
+
+.head {
+    font-size: medium;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 85%;
+}
+
+.modal-inp,
+.time-inp {
+    margin-bottom: 7px;
+}
+
+.modal-inp:focus{
+    outline: none;
+}
+
+.secondary-btn {
+    padding: 8px;
+    width: 80%;
+}
+
+.cancel {
+    cursor: pointer;
+}
+.box-head{
+    color: #1D3461;
+}
+
+.task-name{
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.modal-btn{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+}
+.mark, .unmark{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.mark{
+    background-color: green;
+    color: whitesmoke;
+    
+}
+.unmark{
+    background-color: whitesmoke;
+    color: #1D3461;
+}
